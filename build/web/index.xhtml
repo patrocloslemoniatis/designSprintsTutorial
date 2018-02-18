@@ -1,14 +1,35 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://xmlns.jcp.org/jsf/html">
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
     <h:head>
-        <title>Facelet Title</title>
+        <title>Design Sprints Tutorial</title>
+        <f:facet name="last">
+            <link href="./welcomecss.css" rel="stylesheet" type="text/css"/>
+        </f:facet>
     </h:head>
     <h:body>
-        Hello from Facelet
-        <br />
-        <h:link outcome="welcomePrimefaces" value="Primefaces welcome page" />
+        <span class="welcomemsg">Design Sprints A Complete Tutorial</span>
+
+
+        <div class="wrapper fadeInDown">
+            <div id="formContent">
+                <!-- Icon -->
+                <div class="fadeIn first">
+                    <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+                </div>
+
+                So you want to learn Sprints ?
+                <!-- Login Form -->
+                <form>
+                    <!-- input type="submit" class="fadeIn fourth" value="Go for It!"/ -->
+                    <h:link outcome="welcomePrimefaces" value="Go for It!" />
+                </form>
+
+            </div>
+        </div>
+
     </h:body>
 </html>
 
