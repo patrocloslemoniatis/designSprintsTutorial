@@ -350,12 +350,16 @@ body .modal-dialog {
 
 /**
  * Prevent headings resizing
- */
+ 
+
+/*
 :-webkit-any(.inner-dialog) * {font-size: 100%}
 
 :-moz-any(.inner-dialog) * {font-size: 100%}
 
 :matches(.inner-dialog) * {font-size: 100%}
+*/
+
 
 /**
  * Restores the paragraph font size
@@ -370,11 +374,14 @@ body .modal-dialog {
   -ms-interpolation-mode:bicubic
 }
 
+/*
 :-webkit-any(.modal-dialog) p {font-size: 85%}
 
 :-moz-any(.modal-dialog) p {font-size: 85%}
 
 :matches(.inner-dialog) p {font-size: 85%}
+*/
+
 
 /**
  * Styling the signs for the Modal Message Box
